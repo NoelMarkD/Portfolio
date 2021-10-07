@@ -1,0 +1,258 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+   scroll-behavior: smooth;
+}
+
+/* header */
+
+header{
+    background: #648360;
+    padding-top:10px;
+}
+
+.selfie{
+    border-radius: 100%;
+    height:120px;
+    width:120px;
+}
+
+.name{
+    color:#fff;
+    font-weight:700;
+    margin-top: 25px;
+    padding-left: 30px;
+    text-shadow: 0.5px 1px rgb(61, 68, 68);
+}
+
+.title{
+    color:#fff;
+    font-size: 20px;
+    font-weight: 600;
+    padding-left: 30px;
+    text-shadow: 0.5px 1px rgb(61, 68, 68);
+}
+
+.nav-btn{
+    background:darkkhaki;
+    box-shadow: 0.5px 1px rgb(61, 68, 68);
+    color:#fff;
+    font-weight:500;
+    margin-top: 35px;
+    text-shadow: 0.5px 1px rgb(61, 68, 68);
+    font-size:8px;
+    margin-right: 5px;
+}
+
+@media (min-width: 320px) {
+    .nav-btn {
+        font-size: 8px;
+        margin-bottom:25px;
+    }
+}
+
+@media (min-width: 320px) {
+    .selfie {
+        margin-left:85px;
+        margin-top:20px;
+    }
+}
+
+@media (min-width: 320px) {
+    .name {
+        margin-left:15px;
+    }
+}
+
+@media (min-width: 320px) {
+    .title {
+        margin-left:35px;
+    }
+}
+
+@media (min-width: 375px) {
+    .selfie {
+        margin-left:110px;
+    }
+}
+
+@media (min-width: 375px) {
+    .name {
+        margin-left:40px;
+        
+    }
+}
+
+@media (min-width: 375px) {
+    .title {
+        margin-left:60px;
+    }
+}
+
+@media (min-width: 375px) {
+    .nav-btn {
+        font-size: 12px;
+    }
+}
+
+@media (min-width: 425px) {
+    .selfie {
+        margin-left:130px;
+    }
+}
+
+@media (min-width: 425px) {
+    .name {
+        margin-left:60px;
+    }
+}
+
+@media (min-width: 425px) {
+    .title {
+        margin-left:80px;
+    }
+}
+
+@media (min-width: 768px) {
+    .selfie{
+        width:100px;
+        height:100px;
+        margin-bottom:30px;
+        margin-left:0px;
+    }
+}
+
+@media (min-width: 768px) {
+    .name {
+        font-size: 24px;
+        margin-left:20px;
+        margin-top:60px;
+    }
+}
+
+@media (min-width: 768px) {
+    .title {
+        font-size:12px;
+        margin-left:20px;
+        margin-top:0;
+    }
+}
+
+
+@media (min-width: 768px) {
+    .nav-btn {
+        margin-top:50px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .selfie {
+        width:120px;
+        height:120px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .name {
+        font-size: 30px;
+        margin-left:20px;
+        margin-top:70px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .title {
+        font-size: 20px;
+        margin-left:15px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .nav-btn {
+        font-size: 16px;
+        margin-top:70px;
+    }
+}
+
+@media (min-width: 1440px) {
+    .selfie {
+        width:150px;
+        height:150px;
+    }
+}
+
+@media (min-width: 1440px) {
+    .name {
+        font-size: 40px;
+        margin-left:35px;
+        margin-top:70px;
+    }
+}
+
+@media (min-width: 1440px) {
+    .title {
+        font-size: 20px;
+        margin-left:35px;
+    }
+}
+
+@media (min-width: 1440px) {
+    .nav-btn {
+        font-size: 20px;
+    }
+}
+
+/* close header */
+
+/* main */
+
+main{
+    background:#c1dfbf;
+}
+
+.family{
+    margin-bottom:20px;
+    margin-top:20px;
+    width:750px;
+    height:400px;
+}
+
+.about-text{
+    margin-top:20px;
+    color:rgb(77, 75, 75);
+}
+
+/* main close */
+
+/* footer */
+
+footer{
+    background: #648360;
+}
+
+.colophon-text{
+    color:#fff;
+    margin-top: 10px;
+    padding-left: 20px; 
+}
+
+.icon {
+    display: inline-block;
+    fill: #fff;
+    height: 2em;
+    margin-left: 10px;
+    margin-top: 10px;
+    stroke: currentColor;
+    stroke-width: 0;
+    width: 2em;
+}
+
+/* https://www.linkedin.com/in/mark-noel-3b7415a3 */
+
+/* https://twitter.com/MNoelTheCoder */
+
+/* mailto:mark@mscodingacademies.org */
+
+/* footer close */
