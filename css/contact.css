@@ -46,6 +46,10 @@ header{
     margin-right: 5px;
 }
 
+.scroller{
+    margin-top:40px;
+}
+
 @media (min-width: 320px) {
     .selfie {
         margin-left:85px;
