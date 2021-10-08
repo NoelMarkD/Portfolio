@@ -114,10 +114,10 @@ header{
 
 @media (min-width: 812px) {
     .name {
-        font-size: 22px;
+        font-size: 12px;
     }
     .title {
-        font-size:18px;
+        font-size:8px;
     }
     .nav-btn{
         font-size:8px;
