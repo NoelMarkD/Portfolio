@@ -119,6 +119,10 @@ header{
     .title {
         font-size:18px;
     }
+    .nav-btn{
+        font-size:8px;
+    }
+}
 
 @media (min-width: 1024px) {
     .selfie {
