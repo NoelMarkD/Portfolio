@@ -112,6 +112,14 @@ header{
     }
 }
 
+@media (min-width: 812px) {
+    .name {
+        font-size: 22px;
+    }
+    .title {
+        font-size:18px;
+    }
+
 @media (min-width: 1024px) {
     .selfie {
         width:120px;
