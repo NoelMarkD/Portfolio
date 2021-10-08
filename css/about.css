@@ -162,7 +162,7 @@ main{
 .family{
     display:flex;
     float:right;
-    margin: 10px 10px 0px 40px;
+    margin: 20px 20px 0px 40px;
     margin-bottom:20px;
     margin-top:20px;
     width:450px;
@@ -175,7 +175,6 @@ h2{
 }
 
 .about-text{
-    margin-bottom:40px;
     margin-top:20px;
     color:rgb(77, 75, 75);
 }
