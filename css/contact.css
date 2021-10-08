@@ -164,6 +164,7 @@ main{
 }
 
 .text{
+    line-height: 30px;
     margin-top:65px;
 }
 
@@ -204,7 +205,9 @@ main{
 /* footer */
 
 footer{
-    background:#648360;
+    background: #648360;
+    padding-top:10px;
+    padding-bottom:10px;
 }
 
 .colophon-text{
@@ -230,4 +233,4 @@ footer{
 
 /* mailto:mark@mscodingacademies.org */
 
-/* footer close */
+/* close footer */

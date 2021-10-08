@@ -173,13 +173,14 @@ main{
 }
 
 h2{
-    margin-top: 20px;
     color:rgb(77, 75, 75);
+    margin-top: 20px;
 }
 
 .about-text{
-    margin-top:20px;
     color:rgb(77, 75, 75);
+    line-height: 30px;
+    margin-top:20px;
 }
 
 /* main close */
@@ -188,6 +189,8 @@ h2{
 
 footer{
     background: #648360;
+    padding-top:10px;
+    padding-bottom:10px;
 }
 
 .colophon-text{
@@ -213,4 +216,4 @@ footer{
 
 /* mailto:mark@mscodingacademies.org */
 
-/* footer close */
+/* close footer */

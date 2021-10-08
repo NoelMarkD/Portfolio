@@ -168,13 +168,36 @@ main{
 }
 
 .carousel-image {
-    height: 450px;
     width: 100%;
 }
 
-@media (max-width: 476px) {
-    .carousel-item {
-        height: 300px;
+@media (min-width: 320px) {
+    .carousel-image {
+        height: 125px;
+    }
+}
+
+@media (min-width: 375px) {
+    .carousel-image {
+        height: 150px;
+    }
+}
+
+@media (min-width: 425px) {
+    .carousel-image {
+        height: 200px;
+    }
+}
+
+@media (min-width: 768px) {
+    .carousel-image {
+        height: 400px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .carousel-image {
+        height: 500px;
     }
 }
 
@@ -198,21 +221,21 @@ ul{
     background: #648360;
     border-radius: 3%;
     color:#fff;
-    padding: 5px 5px 5px 5px;
+    padding: 10px 10px 10px 10px;
 }
 
 .block2{
     background: #648360;
     border-radius: 3%;
     color:#fff;
-    padding: 5px 5px 5px 5px;
+    padding: 10px 10px 10px 10px;
 }
 
 .block3{
     background: #648360;
     border-radius: 3%;
     color:#fff;
-    padding: 5px 5px 5px 5px;
+    padding: 10px 10px 10px 10px;
 }
 
 .block1, .block2, .block3{
@@ -223,7 +246,7 @@ ul{
     background: #648360;
     border-radius: 3%;
     color:#fff;
-    padding: 5px 5px 5px 5px;
+    padding: 10px 10px 10px 10px;
 }
 
 .block5{
@@ -231,7 +254,7 @@ ul{
     border-radius: 3%;
     color:#fff;
     opacity: 0.1;
-    padding: 5px 5px 5px 5px;
+    padding: 10px 10px 10px 10px;
 }
 
 .block6{
@@ -239,7 +262,7 @@ ul{
     border-radius: 3%;
     color:#fff;
     opacity: 0.1;
-    padding: 5px 5px 5px 5px;
+    padding: 10px 10px 10px 10px;
 }
 
 .block4, .block5, .block6{
@@ -252,6 +275,8 @@ ul{
 
 footer{
     background: #648360;
+    padding-top:10px;
+    padding-bottom:10px;
 }
 
 .colophon-text{

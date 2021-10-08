@@ -173,6 +173,7 @@ main{
 
 .bloom-text{
     color:rgb(77, 75, 75);
+    line-height: 30px;
     margin-top: 40px;
 }
 
@@ -190,6 +191,7 @@ main{
 
 .detroix-text{
     color:rgb(77, 75, 75);
+    line-height: 30px;
     margin-top: 40px;
 }
 
@@ -207,6 +209,7 @@ main{
 
 .venedor-text{
     color:rgb(77, 75, 75);
+    line-height: 30px;
     margin-top: 40px;
 }
 
@@ -224,6 +227,7 @@ main{
 
 .aditii-text{
     color:rgb(77, 75, 75);
+    line-height: 30px;
     margin-top: 40px;
 }
 
@@ -238,6 +242,8 @@ hr{
 
 footer{
     background: #648360;
+    padding-top:10px;
+    padding-bottom:10px;
 }
 
 .colophon-text{
@@ -263,4 +269,4 @@ footer{
 
 /* mailto:mark@mscodingacademies.org */
 
-/* footer close */
+/* close footer */
