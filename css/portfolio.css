@@ -296,6 +296,11 @@ footer{
     width: 2em;
 }
 
+@media (min-width: 320px) {
+    .colophon-text {
+        margin-left:20px;
+    }
+
 /* https://www.linkedin.com/in/mark-noel-3b7415a3 */
 
 /* https://twitter.com/MNoelTheCoder */
